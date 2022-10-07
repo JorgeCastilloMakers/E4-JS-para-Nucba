@@ -63,7 +63,6 @@ const buscarPoke = async () => {
         Altura: `${respuesta.height / 10}m`,
         Peso: `${respuesta.weight / 10}kg`,
         Pic: `${imgPoke}`,
-        Ataques: `${ataques}`,
         Exp: respuesta.base_experience
     };//Objeto con los datos obtenidos
     renderPoke(pokemon)//Le paso a renderPoke los datos para renderizar
